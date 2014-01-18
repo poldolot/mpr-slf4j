@@ -13,6 +13,8 @@ public class Main {
 		log.info("No to obliczamy:");
 		String s = bjutifaj("AQQ");
 		System.out.println(s);
+		log.debug("A teraz Thingy: Romek");
+		System.out.println((new Thing()).hi("Romek"));
 	}
 
 	private static String bjutifaj(String s) {
